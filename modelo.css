@@ -22,12 +22,12 @@ header,p{
 
 section{
     background-color: var(--section-cor);
-    border-radius: 700px;
+    border-radius: 5px;
     padding: 15px;
     margin: auto;
     width: 700px;
-    height: 350px;
-    box-shadow: 5px  5px 5px rgba(0, 0, 0, 0.368);
+    height: 400px;
+    box-shadow: 2px  2px 5px rgba(0, 0, 0, 0.368);
 }
 
 div {
