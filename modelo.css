@@ -23,6 +23,7 @@ article{
     min-width: 320px;
     max-width: 1000px;
     margin: auto;
+    background-color: chartreuse;
 }
 
 section{
@@ -31,8 +32,6 @@ section{
     padding: 15px;
     margin: auto;
     width: 700px;
-    min-width: 320px;
-    max-width: 1000px;
     height: 400px;
     box-shadow: 2px  2px 5px rgba(0, 0, 0, 0.368);
 }
