@@ -19,6 +19,9 @@ header,p{
     text-align: center;
     padding: 5px;
 }
+article{
+    margin: auto;
+}
 
 section{
     background-color: var(--section-cor);
