@@ -12,17 +12,17 @@ body{
     font: var(--fonte);
 }
 
-header{
-    font-size: xx-large;
+header,p{
+    font-size: x-large;
     color:var(--fonte-cor);
     text-shadow: 1px 1px 2px black;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 section{
     background-color: var(--section-cor);
-    border-radius: 5px;
+    border-radius: 700px;
     padding: 15px;
     margin: auto;
     width: 700px;

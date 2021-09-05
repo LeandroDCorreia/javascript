@@ -5,8 +5,8 @@ function carregar() {
     var hora = data.getHours()
     var minutos = data.getMinutes()
     var segundos = data.getSeconds()
-    var mile = data.getUTCMilliseconds()
-    msg.innerHTML = `Agora são ${hora} horas e ${minutos} minutos <br> ${segundos} segundos e ${mile} milisegundos..`
+    // var mile = data.getUTCMilliseconds()
+    msg.innerHTML = `Agora são ${hora} horas e ${minutos} minutos <br> ${segundos} segundos`
     if (hora >= 0 && hora < 12) {      
         img.src  = "morning.jpg"
         document.body.style.background = '#E0BF4E'
