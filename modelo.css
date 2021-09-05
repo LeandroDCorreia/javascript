@@ -1,0 +1,43 @@
+/* Css Verificador de Idade */
+
+:root{
+    --corpo: rgba(6, 71, 236, 0.539);
+    --section-cor: white;
+    --fonte: normal 15pt sans-serif;
+    --fonte-cor:white;
+}
+
+body{
+    background-color: var(--corpo);
+    font: var(--fonte);
+}
+
+header{
+    font-size: xx-large;
+    color:var(--fonte-cor);
+    text-align: center;
+    padding: 10px;
+}
+
+section{
+    background-color: var(--section-cor);
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    width: 700px;
+    height: 350px;
+    box-shadow: 5px  5px 5px rgba(0, 0, 0, 0.368);
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    font-size: smaller;
+    font-style: oblique;
+    height: 50px;
+    color:var(--fonte-cor);
+    text-align: center;
+    margin: 100px auto;
+}
